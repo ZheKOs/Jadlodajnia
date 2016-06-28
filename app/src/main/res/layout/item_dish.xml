@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_dish"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:id="@+id/ll_dish"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="9dp">
+            <LinearLayout
+                android:id="@+id/ll_dish_top"
+                android:orientation="horizontal"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Danie"
+                    android:id="@+id/textView"
+                    android:layout_weight="1"
+                    android:gravity="left|center" />
+
+                <ImageButton
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/imageButton"
+                    android:background="#fff"
+                    android:src="@drawable/ic_more_vert_black_24dp"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/divider"
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:background="#ddd"/>
+            <LinearLayout
+                android:id="@+id/ll_dish_bottom"
+                android:orientation="horizontal"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_margin="3dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="000 kcal"
+                    android:id="@+id/textView2"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="00.00 zł"
+                    android:id="@+id/textView3"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|right"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

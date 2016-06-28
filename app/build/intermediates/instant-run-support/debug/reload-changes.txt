@@ -1,0 +1,3 @@
+CHANGED,E:\dev\@top\jd_m\android\Jadlodajnia_mobile\android_app\Jadlodajnia\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\pl\pcz\wimii\top\jadlodajnia\MainActivity$override.class
+CHANGED,E:\dev\@top\jd_m\android\Jadlodajnia_mobile\android_app\Jadlodajnia\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,E:\dev\@top\jd_m\android\Jadlodajnia_mobile\android_app\Jadlodajnia\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\pl\pcz\wimii\top\jadlodajnia\AddingDishFragment$override.class

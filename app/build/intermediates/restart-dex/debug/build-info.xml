@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="9077297977403"
+    token="-4771051231917950459" >
+
+    <task
+        name="javac"
+        duration="6091" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="191" />
+    <task
+        name="verifier"
+        duration="67" />
+
+    <artifact
+        location="E:\dev\@top\jd_m\android\Jadlodajnia_mobile\android_app\Jadlodajnia\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="60847570761050" >
+        <artifact
+            location="E:\dev\@top\jd_m\android\Jadlodajnia_mobile\android_app\Jadlodajnia\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
